@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище CourseWorkModelContainer" CdmEntityContainer="CourseWorkEntities">
+    <EntitySetMapping Name="СотрудникиL10">
+      <EntityTypeMapping TypeName="CourseWorkModel.СотрудникиL10">
+        <MappingFragment StoreEntitySet="СотрудникиL10">
+          <ScalarProperty Name="ID_сотрудника" ColumnName="ID сотрудника" />
+          <ScalarProperty Name="Фамилия" ColumnName="Фамилия" />
+          <ScalarProperty Name="Имя" ColumnName="Имя" />
+          <ScalarProperty Name="Отчество" ColumnName="Отчество" />
+          <ScalarProperty Name="Должность" ColumnName="Должность" />
+          <ScalarProperty Name="Фото" ColumnName="Фото" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
